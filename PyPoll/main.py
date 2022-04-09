@@ -8,8 +8,7 @@ with open(csvpath) as file:
 #create csv reader object to read the data
     csvreader = csv.reader(file, delimiter=",")
     csv_header = next(csvreader)
-    #print(f"CSV Header: {csv_header}")
-
+    
 #initialize variable and create lists to store data
     total_votes = 0
     candidates = []
